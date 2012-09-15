@@ -96,7 +96,7 @@
    * @return {Float32Array} destination vector
    * @api public
    */
-  
+
   vector3.diff = function (self, a, b) {
     self[0] = a[0] - b[0];
     self[1] = a[1] - b[1];
@@ -104,4 +104,23 @@
 
     return self;
   };
+
+  /**
+   * add
+   * Add vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} v vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector3.add = function (self, v) {
+    self[0] += v[0];
+    self[1] += v[1];
+    self[2] += v[2];
+
+    return self;
+  };
+
  }(this));
