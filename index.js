@@ -32,4 +32,22 @@
     return new Float32Array([0.0, 0.0, 0.0]);
   };
 
+  /**
+   * set
+   * Set vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} v source vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector3.set = function (self, v) {
+    self[0] = v[0];
+    self[1] = v[1];
+    self[2] = v[2];
+
+    return self;
+  };
+
  }(this));
