@@ -50,4 +50,21 @@
     return self;
   };
 
+  /**
+   * zero
+   * Set vector to zero.
+   * 
+   * @param {Float32Array} self destination vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector3.zero = function (self) {
+    self[0] = 0.0;
+    self[1] = 0.0;
+    self[2] = 0.0;
+
+    return self;
+  };
+  
  }(this));
