@@ -264,4 +264,23 @@
     return self[0] * v[0] + self[1] * v[1] + self[2] * v[2];
   };
 
+  /**
+   * cross
+   * Calculate the cross product of two vectors.
+   * 
+   * @param {Float32Array} self vector
+   * @param {Float32Array} a vector
+   * @param {Float32Array} b vector
+   * @return {Number} cross product
+   * @api public
+   */
+
+  vector3.cross = function (self, a, b) {
+    self[0] = a[1] * b[2] - a[2] * b[1];
+    self[1] = a[2] * b[0] - a[0] * b[2];
+    self[2] = a[0] * b[1] - a[1] * b[0];
+
+    return self;
+  };
+
 }(this));
