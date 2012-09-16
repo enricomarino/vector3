@@ -211,4 +211,21 @@
     return sqrt(x*x + y*y + z*z);
   };
 
+  /**
+   * length_squared
+   * Get vector length squared.
+   * 
+   * @param {Float32Array} self vector
+   * @return {Number} vector length
+   * @api public
+   */
+
+  vector3.length_squared = function (self) {
+    var x = self[0];
+    var y = self[1];
+    var z = self[2];
+
+    return (x*x + y*y + z*z);
+  };
+
 }(this));
