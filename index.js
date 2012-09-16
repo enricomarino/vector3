@@ -250,4 +250,18 @@
     return self;
   };
 
+  /**
+   * dot
+   * Calculate the dot product of two vectors.
+   * 
+   * @param {Float32Array} self vector
+   * @param {Float32Array} v vector
+   * @return {Number} dot product
+   * @api public
+   */
+
+  vector3.dot = function (self, v) {
+    return self[0] * v[0] + self[1] * v[1] + self[2] * v[2];
+  };
+
 }(this));
