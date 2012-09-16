@@ -228,4 +228,26 @@
     return (x*x + y*y + z*z);
   };
 
+  /**
+   * normalize
+   * Get vector length squared.
+   * 
+   * @param {Float32Array} self vector
+   * @return {Float32Array} normalized vector
+   * @api public
+   */
+
+  vector3.normalize = function (self) {
+    var x = self[0];
+    var y = self[1];
+    var z = self[2];
+    var w = 1.0 / sqrt(x*x + y*y + z*z);
+
+    self[0] *= w;
+    self[1] *= w;
+    self[2] *= w;
+
+    return self;
+  };
+
 }(this));
