@@ -6,7 +6,7 @@
   },
   "name": "vector3",
   "description": "JavaScript math library for 3d vector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/onirame/vector3",
   "repository": {
     "type": "git",
