@@ -1,16 +1,25 @@
 {
+  "name": "vector3",
+  "description": "JavaScript 3d vector library",
+  "version": "0.1.1",
   "author": {
     "name": "Enrico Marino",
-    "email": "enrico.marino@email.com",
-    "site": "http://onirame.no.de"
+    "email": "enrico.marino@email.com"
   },
-  "name": "vector3",
-  "description": "JavaScript math library for 3d vector",
-  "version": "0.1.0",
-  "homepage": "https://github.com/onirame/vector3",
+  "maintainers": [
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/cvdlab/vector3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/vector3.git"
+    "url": "git://github.com/cvdlab/vector3.git"
   },
   "main": "index.js",
   "engines": {
