@@ -1,7 +1,6 @@
-
-/* !
+/**!
  * vector3
- * JavaScript 3d vector library
+ * Vector 3Dcomponent
  *
  * @copyright 2013 Enrico Marino
  * @license MIT
@@ -12,12 +11,6 @@
  */
 
 var vector3 = exports;
-
-/**
- * Library version.
- */
-
-vector3.version = '0.2.0';
 
 /**
  * create
