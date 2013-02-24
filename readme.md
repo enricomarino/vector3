@@ -1,10 +1,10 @@
 # vector3
 
-JavaScript 3d vector library
+Vector 3D component
 
 ## Installation
 
-    $ component install component-math/vector3
+    $ component install enricomarino/vector3
 
 ## License
 
