@@ -1,6 +1,6 @@
 {
   "name": "vector3",
-  "description": "JavaScript 3d vector library",
+  "description": "Vector 3D component",
   "version": "0.2.0",
   "author": {
     "name": "Enrico Marino",
@@ -16,10 +16,10 @@
       "url": "http://federicospini.com"
     }
   ],
-  "homepage": "https://github.com/component-math/vector3",
+  "homepage": "https://github.com/enricomarino/vector3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/component-math/vector3.git"
+    "url": "git://github.com/enricomarino/vector3.git"
   },
   "main": "index.js",
   "engines": {
