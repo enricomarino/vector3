@@ -1,6 +1,6 @@
 {
   "name": "vector3",
-  "repo": "component-math/vector3",
+  "repo": "enricomarino/vector3",
   "version": "0.2.0",
   "description": "JavaScript 3d vector library",
   "keywords": ["math", "vector", "3d"],
